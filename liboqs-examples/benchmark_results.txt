@@ -1,0 +1,14 @@
+# Benchmark Results: PQC Key Exchange
+
+Algorithm: Kyber512
+Machine: WSL2 - x86_64 - GCC 11.4
+
+Single Key Exchange Time:
+- Real time: 0.005 seconds
+- User CPU time: 0.000 seconds
+- System CPU time: 0.004 seconds
+
+Notes:
+- Shared secret matched successfully
+- liboqs built with OpenSSL enabled
+- No memory leaks detected
